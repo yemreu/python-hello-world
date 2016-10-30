@@ -29,3 +29,14 @@ a=0xa1
 b=18.7e5
 c=12+3j
 print(a,b,c,end="\n\n")
+
+#--Strings--
+
+str = "Hello World"
+
+print(str)
+print(str[0])       #first character
+print(str[2:5])     #3. character to 5. character
+print(str[2:])      #from 3. character to last
+print(str * 2)      #print 2 times
+print(str + "Py")   #concat
